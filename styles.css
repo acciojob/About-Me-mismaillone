@@ -1,1 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:wght@100;500&display=swap');
+body{
+	background:rgb(245,245,245);
+}
+.container {
+	display:flex;
+	justify-content:center;
+	background:white;
+	width:100%;
+}
+.hero{
+	display:flex;
+	justify-content:center;
+	width:100%;
+	padding:20px;
+}
+.main-right {
+	width:50%;	
+}
+.other-info{
+  position:relative;
+  top:-10px;
+  margin-left:2rem;
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+}
+.other-info span{
+	font-weight:600;
+}
+.basic-details{
+	display:flex;
+	margin-top:40px;
+	
+}
+.basic-details img {
+	height:190px;
+	width:180px;
+}
+.main-left{
+	width:50%;
+}
+.skills{
+	margin-top:30px;
+	font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+.skills h1{
+ font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+}
 
+.skil1{
+	display:flex;
+	gap : 20px;
+}
+.skil1 i{
+	margin-left:5px;
+}
+.percent{
+	margin-left:50px;
+}
+.percent1{
+	margin-left:145px;
+}
+.percent2{
+	margin-left:90px;
+}
+.percent3{
+	margin-left:97px;
+}
+.outer-line{
+	background:rgb(205,225,248);
+	width:80%;
+}
+.line{
+  	height:10px;
+	width:95%;
+	background:blue;
+}
+.line1{
+	height:10px;
+	width:90%;
+	background:blue;
+}
+.line2{
+	height:10px;
+	width:99%;
+	background:blue;
+}
+.line3{
+	height:10px;
+	width:93%;
+	background:blue;
+}
+.about-us h1{
+	font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+  font-style: normal;
+	font-size:40px;
+}
+.about-us p{
+font-family: "Inter", serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+	font-size:20px;
+}
